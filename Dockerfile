@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8080
 
 # Command to run the application
-CMD ["ruby", "app.rb", "-o", "0.0.0.0", "-p", "8080"] 
+CMD ["ruby", "app.rb"] 
