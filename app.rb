@@ -6,7 +6,7 @@ class App < Sinatra::Base
   set :host_authorization, { permitted_hosts: [] }
 
   get '/' do
-    'Hello World'
+    'Hello World again!'
   end
   
   run! if app_file == $0
